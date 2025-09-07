@@ -34,3 +34,16 @@ Once connected, you can type your messages and press Enter. To exit, type `exit`
 ## License
 
 This project is licensed under the MIT License.
+
+## Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request.
+
+### Releasing a new version
+
+To release a new version, create a new tag with the version number and push it to the repository. The workflow will then automatically create a GitHub release and publish the package to PyPI.
+
+```bash
+git tag v0.1.3
+git push origin v0.1.3
+```
